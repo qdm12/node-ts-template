@@ -59,7 +59,7 @@
 
     <details><summary>Locally</summary><p>
 
-    Install Nodejs and npm or yarn.
+    Install [Nodejs](https://nodejs.org/en/download/) and [Docker](https://www.docker.com/products/docker-desktop), with eventually [yarn](https://classic.yarnpkg.com/en/docs/install/)
 
     </p></details>
 
@@ -74,7 +74,11 @@
     yarn lint
     # Build the app for production
     yarn build
+    # Build the Docker image
+    docker build -t qmcgaw/REPONAME_DOCKER .
     ```
+
+1. See [Contributing](.github/CONTRIBUTING.md) for more information on how to contribute to this repository.
 
 ## TODOs
 
