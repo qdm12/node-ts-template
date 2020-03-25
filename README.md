@@ -18,7 +18,7 @@
 ## Features
 
 - Compatible with `amd64`, `386`, `arm64`, `arm32v7`, `arm32v6`, `ppc64le` and `s390x` CPU architectures.
-- [Docker image tags and sizes](https://hub.docker.com/repository/docker/qmcgaw/REPONAME_DOCKER/tags)
+- [Docker image tags and sizes](https://hub.docker.com/repository/qmcgaw/REPONAME_DOCKER/tags)
 
 ## Setup
 
@@ -34,7 +34,7 @@
     docker-compose up -d
     ```
 
-1. You can update the image with `docker pull qmcgaw/REPONAME_DOCKER:latest` or use one of [tags available](https://hub.docker.com/repository/docker/qmcgaw/REPONAME_DOCKER/tags)
+1. You can update the image with `docker pull qmcgaw/REPONAME_DOCKER:latest` or use one of [tags available](https://hub.docker.com/r/qmcgaw/REPONAME_DOCKER/tags)
 
 ### Environment variables
 
